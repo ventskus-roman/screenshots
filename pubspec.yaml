@@ -10,7 +10,7 @@ environment:
 
 dependencies:
   args: ^1.6.0
-  yaml: ^2.2.1
+  yaml: ^3.0.0
   resource: ^2.1.5
   path: ^1.6.2
   file: ^6.0.0
@@ -33,6 +33,9 @@ dev_dependencies:
   tool_base_test:
     git: https://github.com/ventskus-roman/tool_base_test
   collection: any
+
+dependency_overrides:
+  archive: ^2.0.13
 
 executables:
   screenshots: main
